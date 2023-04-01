@@ -21,3 +21,7 @@ To use the useState Hook, we first need to import it into our component.
 ```javascript
 import { useState } from "react";
 ```
+
+##### Full code at -> [useState](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usestate)
+##### Other References -> [w3schools](https://www.w3schools.com/REACT/react_usestate.asp)
+
