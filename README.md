@@ -84,3 +84,25 @@ The useReducer Hook returns the current state and a dispatchmethod.
 ##### Full code at -> [useReducer](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usereducer)
 ##### Other References -> [w3schools](https://www.w3schools.com/REACT/react_usereducer.asp)
 
+### React useCallback Hook
+The React useCallback Hook returns a memoized callback function.
+
+This allows us to isolate resource intensive functions so that they will not automatically run on every render.
+
+The useCallback Hook only runs when one of its dependencies update.
+
+This can improve performance.
+
+The useCallback and useMemo Hooks are similar. The main difference is that useMemo returns a memoized value and useCallback returns a memoized function.
+##### Full code at -> [useCallback](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usecallback)
+##### Other References -> [w3schools](https://www.w3schools.com/REACT/react_usecallback.asp)
+
+### React useMemo Hook 
+The React useMemo Hook returns a memoized value.
+
+The useMemo Hook only runs when one of its dependencies update.
+
+The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running.
+##### Full code at -> [useMEmo](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usememo)
+##### Other References -> [w3schools](https://www.w3schools.com/REACT/react_usememo.asp)
+
