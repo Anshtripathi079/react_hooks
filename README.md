@@ -103,6 +103,12 @@ The React useMemo Hook returns a memoized value.
 The useMemo Hook only runs when one of its dependencies update.
 
 The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running.
-##### Full code at -> [useMEmo](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usememo)
+##### Full code at -> [useMemo](https://github.com/Anshtripathi079/react_hooks/tree/master/src/components/usememo)
 ##### Other References -> [w3schools](https://www.w3schools.com/REACT/react_usememo.asp)
 
+### Custom Hooks
+Hooks are reusable functions.
+
+When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.
+
+Custom Hooks start with "use". Example: useFetch.
